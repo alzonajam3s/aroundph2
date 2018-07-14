@@ -1,0 +1,210 @@
+a:hover {
+    color: red !important;
+}
+
+.bgtrans {
+    background: rgba(122, 130, 136, 0)!important;
+}
+
+.imagee:hover {
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+.btn {
+	border-radius: 0px;
+}
+
+.jumbotron {
+	margin-left: -20px;
+	margin-right: -20px;
+	margin-top: -25px;
+
+}
+
+.jumbotron2 {
+    background-color: #ffe4b5
+}
+
+.sidenav {
+    height: 100%;
+    width: 170px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    color: #fff;
+    background: linear-gradient(to bottom, #ffc107, #fff);
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.sidenav a {
+    padding: 3px 2px 3px 16px;
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+    display: block;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.main {
+    margin-left: 170px;
+    padding: 0px;
+}
+
+.text-black {
+  color: black;
+}
+
+.buttbutt {
+    width: 100px;
+    height: 100px;
+    font-size: 50px;
+}
+
+.macwidth {
+    max-width: 150px;
+}
+
+.carheight {
+    max-height: 200px;
+}
+
+.owl-item {
+    max-width: 500px !important;
+}
+
+.color1 {
+    background: #fff6e6;
+}
+
+.color2 {
+    background: #ffe4b5 !important;
+}
+
+.color3 {
+    background:  #ffd080;
+}
+
+.color4 {
+    background: #e69100;
+}
+
+.twitcolor {
+    background: lightblue;
+}
+
+#scroll {
+    position:fixed;
+    right:10px;
+    bottom:10px;
+    cursor:pointer;
+    width:50px;
+    height:50px;
+    color:white;
+    background-color:#e69100;
+    text-indent:-9999px;
+    display:none;
+    -webkit-border-radius:60px;
+    -moz-border-radius:60px;
+    border-radius:60px
+}
+#scroll span {
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin-left:-8px;
+    margin-top:-12px;
+    height:0;
+    width:0;
+    border:8px solid transparent;
+    border-bottom-color:#ffffff;
+}
+#scroll:hover {
+    background-color:#805100;
+    opacity:1;filter:"alpha(opacity=100)";
+    -ms-filter:"alpha(opacity=100)";
+}
+
+.padpad {
+    height:40px;
+    padding:10px;
+}
+
+.padpad2 {
+    height:60px;
+    padding:10px;
+}
+
+.filimit {
+    width: 70%;
+}
+
+.navbar {
+    -webkit-box-shadow: 0 8px 6px -6px #999;
+    -moz-box-shadow: 0 8px 6px -6px #999;
+    box-shadow: 0 8px 6px -6px #999;
+}
+
+.shadowman {
+    -webkit-box-shadow: 0 8px 6px -6px #999;
+    -moz-box-shadow: 0 8px 6px -6px #999;
+    box-shadow: 0 8px 6px -6px #999;
+}
+
+.shadowmarg {
+    padding: 30px;
+}
+
+/*SHINE*/
+.mask a{
+  position: relative;
+  display:block;
+  width:150px;
+  height: 64px;
+  text-align:center;
+  margin: 50px auto;
+  background: ;
+  -webkit-filter: drop-shadow(1px 1px 2px rgba(0,0,0,.5));
+}
+.mask a{
+  background-position: -140px 0;
+  
+}
+.mask a:hover,
+.mask a:focus{
+  background-position: 10px 0;
+  /*change speed to see in slow motion*/
+  transition: all 1s;
+}
+.mask a::after{
+  content:'';
+  position: absolute;
+  pointer-events: none;
+  top:0; left:0; right:0; bottom: 0;
+  background: radial-gradient(0 0,circle farthest-side, rgba(255,255,255,0) 90%,rgba(255,255,255,.8) 98%,rgba(255,255,255,0) 100%) no-repeat;
+  background: radial-gradient(circle farthest-side at 0 0, rgba(255,255,255,0) 90%,rgba(255,255,255,.8) 98%,rgba(255,255,255,0) 100%) no-repeat;
+  background-position: inherit; 
+  -webkit-mask: url('http://dev.iamvdo.me/newLogoCSS3create2.png') center;
+  mask: url('#mask-firefox');
+}
+
+
